@@ -64,7 +64,7 @@ public class Main {
             position = 1;
         } else if (playerScore >= 500) {
             position = 2;
-        } else if (playerScore >= 100) { // I put the semicolon after the (playScore)
+        } else if (playerScore >= 100); { // I put the semicolon after the (playScore)
              //in this case nothing happen I just changed the code. and the result changed to position all equal position 3
             position = 3;
         } // At the last we can only return the position
